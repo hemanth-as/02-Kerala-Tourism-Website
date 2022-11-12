@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#logo{
+    width: 110px;
+    /* margin: auto; */
+    margin: 0px 10px 10px 10px;
+    /* border: 2px solid red; */
+}
+#welcome{
+    margin: 10px 0px 10px 110px;
+    /* border: 2px solid red; */
+}
+/* .nav-pills{
+    border: 2px solid red;
+} */
+.carousel{
+    align-content: center;
+    /* padding: 10%; */
+    margin: 5% 20%;
+    /* border: 2px solid red; */
+
+}
+/* #cardimg{
+    align-content: center;
+    margin: 5% 20%;
+} */
+#about_title{
+    text-align: center;
+    padding-top: 10%;
+}
+#abouttxt{
+    /* border: 2px solid red; */
+    font-size: 150%;
+    text-align: justify;
+    margin: 5% 20%;
+
+}

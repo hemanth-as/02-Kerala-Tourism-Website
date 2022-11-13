@@ -22,11 +22,8 @@
     /* border: 2px solid red; */
 
 }
-/* #cardimg{
-    align-content: center;
-    margin: 5% 20%;
-} */
 #about_title{
+    /* border: 2px solid red; */
     text-align: center;
     padding-top: 10%;
 }
@@ -36,4 +33,19 @@
     text-align: justify;
     margin: 5% 20%;
 
+}
+#login{
+    border: 2px solid red;
+    margin: 5% 10%;
+    /* padding: 5% 10%; */
+}
+#signup{
+    border: 2px solid red;
+    margin: 5% 10%;
+    /* padding: 5% 10%; */
+}
+#contact{
+    border: 2px solid red;
+    margin: 5% 10%;
+    /* padding: 5% 10%; */
 }

@@ -48,7 +48,7 @@
   </div>
   
   <div id="login">
-    <form class="px-4 py-3">
+    <form action="index.html" class="px-4 py-3" onsubmit="return validate()">
       <div class="mb-3">
         <label for="exampleDropdownFormEmail1" class="form-label">Email address</label>
         <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com">
@@ -65,8 +65,9 @@
           </label>
         </div>
       </div>
-      <button type="submit" class="btn btn-primary">Log in</button>
+      <button type="submit" class="btn btn-primary" id="submit">Log in</button>
     </form>
+    <script src="login.js"></script>
     <div class="dropdown-divider"></div>
     <a class="dropdown-item" href="signup.html">New around here? Sign up</a>
     <a class="dropdown-item" href="#">Forgot password?</a>
